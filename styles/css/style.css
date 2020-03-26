@@ -1,0 +1,219 @@
+/*
+// Website main colors with opacity 70%
+$primary-color: #09B280;
+$secondary-color: #BA7DC3;
+$tertiary-color: #0957B2;
+
+// Alternative colors
+$fourth-color: #C4C4C4;
+$white: #ffffff;*/
+body {
+  margin: 0; }
+
+.container {
+  width: 100%;
+  font-family: "Amatic SC", cursive; }
+
+header {
+  height: 180px;
+  width: 100%;
+  position: fixed;
+  background-image: linear-gradient(white, transparent);
+  z-index: 2; }
+
+.header {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  position: fixed;
+  z-index: 1; }
+
+.header-sided {
+  display: block; }
+
+.logo {
+  height: 80px;
+  background-color: #1b4353;
+  color: #ffffff;
+  text-align: center;
+  line-height: 80px;
+  font-weight: bold;
+  font-style: normal;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25); }
+
+.logo-extended {
+  width: 300px;
+  font-size: 40px;
+  border-radius: 50px; }
+
+.logo-minify {
+  width: 80px;
+  border-radius: 50%;
+  font-size: 28px; }
+
+.social-buttons {
+  display: flex;
+  margin: auto 30px; }
+
+.social-buttons-sided {
+  margin-top: -89px;
+  width: 189px; }
+
+.social-icon {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  margin: auto 5px; }
+  .social-icon img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; }
+
+#social-linkedin {
+  background-color: #1b4353; }
+
+.social-linkedin-sided {
+  margin: 10px 100px; }
+
+#social-instagram {
+  background-color: #1b4353; }
+
+.social-instagram-sided {
+  margin: 10px 70px; }
+
+#social-github {
+  background-color: #1b4353; }
+
+.social-github-sided {
+  margin: -40px 0px; }
+
+#content {
+  padding-top: 180px; }
+
+.timeline-step {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 400px; }
+
+.event-label {
+  position: relative;
+  background-color: #1b4353;
+  min-width: 400px;
+  height: 60px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25px;
+  margin: auto 30px; }
+
+.image-container {
+  width: 300px;
+  margin: 0 auto; }
+
+.bottom-frame {
+  width: 320px;
+  background-color: #1b4353;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 auto; }
+
+.date {
+  position: absolute;
+  font-size: 17px;
+  right: 12px;
+  text-align: right;
+  margin-top: 13px; }
+
+.event-date {
+  padding: 0 35px;
+  justify-content: space-between;
+  color: #ffffff;
+  display: flex;
+  position: relative;
+  font-weight: bold;
+  font-style: normal; }
+
+.timeline-circle {
+  width: 146px;
+  height: 146px;
+  border-radius: 50%;
+  background-color: #1b4353;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  margin: 20px 0;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center; }
+  .timeline-circle .event-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 15px; }
+
+.timeline-circle:hover .event-icon {
+  visibility: hidden; }
+.timeline-circle:hover .event-day {
+  visibility: hidden; }
+
+.label-content {
+  position: relative;
+  z-index: 1; }
+
+.link-line {
+  position: absolute;
+  width: 4px;
+  height: 526px;
+  background-color: rgba(27, 67, 83, 0.7);
+  left: 50%;
+  z-index: -1; }
+
+#col-background {
+  position: fixed;
+  background-image: url("../../images/background.png");
+  width: 630px;
+  height: 100vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1; }
+
+#go-up-arrow {
+  width: 100px;
+  font-size: 40px;
+  height: 100px;
+  background-image: url("../../images/goUp.png");
+  text-align: center;
+  line-height: 150px;
+  position: absolute;
+  left: 50%;
+  margin-top: 428px;
+  margin-left: -48px; }
+  #go-up-arrow a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer; }
+
+#credits {
+  position: fixed;
+  right: 10px;
+  bottom: -15px;
+  background-color: #1b4353;
+  border-radius: 16px;
+  height: 45px;
+  width: 160px;
+  text-align: center;
+  line-height: 0px;
+  color: white;
+  font-style: normal;
+  font-size: 15px; }
+
+/*# sourceMappingURL=style.css.map */
